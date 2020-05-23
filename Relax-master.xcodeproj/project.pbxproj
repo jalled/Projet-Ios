@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04451C0F245B6D9A0048862C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C0E245B6D9A0048862C /* AppDelegate.swift */; };
+		04451C11245B6D9A0048862C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C10245B6D9A0048862C /* SceneDelegate.swift */; };
+		04451C13245B6D9A0048862C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C12245B6D9A0048862C /* ViewController.swift */; };
+		04451C16245B6D9A0048862C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04451C14245B6D9A0048862C /* Main.storyboard */; };
+		04451C19245B6D9A0048862C /* Relax_master.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04451C17245B6D9A0048862C /* Relax_master.xcdatamodeld */; };
+		04451C1B245B6D9C0048862C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04451C1A245B6D9C0048862C /* Assets.xcassets */; };
+		04451C1E245B6D9C0048862C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04451C1C245B6D9C0048862C /* LaunchScreen.storyboard */; };
+		04451C29245B6D9C0048862C /* Relax_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C28245B6D9C0048862C /* Relax_masterTests.swift */; };
+		04451C34245B6D9C0048862C /* Relax_masterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C33245B6D9C0048862C /* Relax_masterUITests.swift */; };
+		04451C43245B72690048862C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C42245B72690048862C /* User.swift */; };
+		04451C46245B72BF0048862C /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C45245B72BF0048862C /* Connexion.swift */; };
+		04451C48245B734A0048862C /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C47245B734A0048862C /* LoginService.swift */; };
+		04451C4B245C50D50048862C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04451C4A245C50D50048862C /* LoginViewController.swift */; };
+		04E6C632246D980400F945CA /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6C631246D980400F945CA /* BaseTabBarController.swift */; };
+		987D8BA2637A92B933BB9270 /* Pods_Relax_master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1131066DC3A7908D22A6694 /* Pods_Relax_master.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04451C25245B6D9C0048862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04451C03245B6D9A0048862C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04451C0A245B6D9A0048862C;
+			remoteInfo = "Relax-master";
+		};
+		04451C30245B6D9C0048862C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04451C03245B6D9A0048862C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04451C0A245B6D9A0048862C;
+			remoteInfo = "Relax-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04451C0B245B6D9A0048862C /* Relax-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Relax-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04451C0E245B6D9A0048862C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04451C10245B6D9A0048862C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04451C12245B6D9A0048862C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04451C15245B6D9A0048862C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04451C18245B6D9A0048862C /* Relax_master.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Relax_master.xcdatamodel; sourceTree = "<group>"; };
+		04451C1A245B6D9C0048862C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04451C1D245B6D9C0048862C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04451C1F245B6D9C0048862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04451C24245B6D9C0048862C /* Relax-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relax-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04451C28245B6D9C0048862C /* Relax_masterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relax_masterTests.swift; sourceTree = "<group>"; };
+		04451C2A245B6D9C0048862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04451C2F245B6D9C0048862C /* Relax-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relax-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04451C33245B6D9C0048862C /* Relax_masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relax_masterUITests.swift; sourceTree = "<group>"; };
+		04451C35245B6D9C0048862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04451C42245B72690048862C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04451C45245B72BF0048862C /* Connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
+		04451C47245B734A0048862C /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		04451C4A245C50D50048862C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E6C631246D980400F945CA /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		7356A4070E5F33D9CA4C0363 /* Pods-Relax-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relax-master.debug.xcconfig"; path = "Target Support Files/Pods-Relax-master/Pods-Relax-master.debug.xcconfig"; sourceTree = "<group>"; };
+		A1131066DC3A7908D22A6694 /* Pods_Relax_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relax_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FA144ADC47FEF80241977A /* Pods-Relax-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relax-master.release.xcconfig"; path = "Target Support Files/Pods-Relax-master/Pods-Relax-master.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04451C08245B6D9A0048862C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987D8BA2637A92B933BB9270 /* Pods_Relax_master.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C21245B6D9C0048862C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C2C245B6D9C0048862C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04451C02245B6D9A0048862C = {
+			isa = PBXGroup;
+			children = (
+				04451C0D245B6D9A0048862C /* Relax-master */,
+				04451C27245B6D9C0048862C /* Relax-masterTests */,
+				04451C32245B6D9C0048862C /* Relax-masterUITests */,
+				04451C0C245B6D9A0048862C /* Products */,
+				3AB332F9120EFE44391EBA5B /* Pods */,
+				B55C2BFEEDB07E38B8D655EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04451C0C245B6D9A0048862C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04451C0B245B6D9A0048862C /* Relax-master.app */,
+				04451C24245B6D9C0048862C /* Relax-masterTests.xctest */,
+				04451C2F245B6D9C0048862C /* Relax-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04451C0D245B6D9A0048862C /* Relax-master */ = {
+			isa = PBXGroup;
+			children = (
+				04451C49245C507B0048862C /* Controller */,
+				04451C44245B729C0048862C /* Service */,
+				04451C41245B72440048862C /* Models */,
+				04451C0E245B6D9A0048862C /* AppDelegate.swift */,
+				04451C10245B6D9A0048862C /* SceneDelegate.swift */,
+				04451C14245B6D9A0048862C /* Main.storyboard */,
+				04451C1A245B6D9C0048862C /* Assets.xcassets */,
+				04451C1C245B6D9C0048862C /* LaunchScreen.storyboard */,
+				04451C1F245B6D9C0048862C /* Info.plist */,
+				04451C17245B6D9A0048862C /* Relax_master.xcdatamodeld */,
+			);
+			path = "Relax-master";
+			sourceTree = "<group>";
+		};
+		04451C27245B6D9C0048862C /* Relax-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				04451C28245B6D9C0048862C /* Relax_masterTests.swift */,
+				04451C2A245B6D9C0048862C /* Info.plist */,
+			);
+			path = "Relax-masterTests";
+			sourceTree = "<group>";
+		};
+		04451C32245B6D9C0048862C /* Relax-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04451C33245B6D9C0048862C /* Relax_masterUITests.swift */,
+				04451C35245B6D9C0048862C /* Info.plist */,
+			);
+			path = "Relax-masterUITests";
+			sourceTree = "<group>";
+		};
+		04451C41245B72440048862C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04451C42245B72690048862C /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04451C44245B729C0048862C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04451C45245B72BF0048862C /* Connexion.swift */,
+				04451C47245B734A0048862C /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04451C49245C507B0048862C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04451C12245B6D9A0048862C /* ViewController.swift */,
+				04451C4A245C50D50048862C /* LoginViewController.swift */,
+				04E6C631246D980400F945CA /* BaseTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AB332F9120EFE44391EBA5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7356A4070E5F33D9CA4C0363 /* Pods-Relax-master.debug.xcconfig */,
+				C9FA144ADC47FEF80241977A /* Pods-Relax-master.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B55C2BFEEDB07E38B8D655EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1131066DC3A7908D22A6694 /* Pods_Relax_master.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04451C0A245B6D9A0048862C /* Relax-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04451C38245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-master" */;
+			buildPhases = (
+				564330C698F3B370CD489892 /* [CP] Check Pods Manifest.lock */,
+				04451C07245B6D9A0048862C /* Sources */,
+				04451C08245B6D9A0048862C /* Frameworks */,
+				04451C09245B6D9A0048862C /* Resources */,
+				8F010DADB3798643AB1FDE4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Relax-master";
+			productName = "Relax-master";
+			productReference = 04451C0B245B6D9A0048862C /* Relax-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04451C23245B6D9C0048862C /* Relax-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04451C3B245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-masterTests" */;
+			buildPhases = (
+				04451C20245B6D9C0048862C /* Sources */,
+				04451C21245B6D9C0048862C /* Frameworks */,
+				04451C22245B6D9C0048862C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04451C26245B6D9C0048862C /* PBXTargetDependency */,
+			);
+			name = "Relax-masterTests";
+			productName = "Relax-masterTests";
+			productReference = 04451C24245B6D9C0048862C /* Relax-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04451C2E245B6D9C0048862C /* Relax-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04451C3E245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-masterUITests" */;
+			buildPhases = (
+				04451C2B245B6D9C0048862C /* Sources */,
+				04451C2C245B6D9C0048862C /* Frameworks */,
+				04451C2D245B6D9C0048862C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04451C31245B6D9C0048862C /* PBXTargetDependency */,
+			);
+			name = "Relax-masterUITests";
+			productName = "Relax-masterUITests";
+			productReference = 04451C2F245B6D9C0048862C /* Relax-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04451C03245B6D9A0048862C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04451C0A245B6D9A0048862C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					04451C23245B6D9C0048862C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 04451C0A245B6D9A0048862C;
+					};
+					04451C2E245B6D9C0048862C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 04451C0A245B6D9A0048862C;
+					};
+				};
+			};
+			buildConfigurationList = 04451C06245B6D9A0048862C /* Build configuration list for PBXProject "Relax-master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04451C02245B6D9A0048862C;
+			productRefGroup = 04451C0C245B6D9A0048862C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04451C0A245B6D9A0048862C /* Relax-master */,
+				04451C23245B6D9C0048862C /* Relax-masterTests */,
+				04451C2E245B6D9C0048862C /* Relax-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04451C09245B6D9A0048862C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04451C1E245B6D9C0048862C /* LaunchScreen.storyboard in Resources */,
+				04451C1B245B6D9C0048862C /* Assets.xcassets in Resources */,
+				04451C16245B6D9A0048862C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C22245B6D9C0048862C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C2D245B6D9C0048862C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564330C698F3B370CD489892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Relax-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F010DADB3798643AB1FDE4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Relax-master/Pods-Relax-master-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Relax-master/Pods-Relax-master-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Relax-master/Pods-Relax-master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04451C07245B6D9A0048862C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04451C19245B6D9A0048862C /* Relax_master.xcdatamodeld in Sources */,
+				04451C46245B72BF0048862C /* Connexion.swift in Sources */,
+				04E6C632246D980400F945CA /* BaseTabBarController.swift in Sources */,
+				04451C13245B6D9A0048862C /* ViewController.swift in Sources */,
+				04451C0F245B6D9A0048862C /* AppDelegate.swift in Sources */,
+				04451C4B245C50D50048862C /* LoginViewController.swift in Sources */,
+				04451C43245B72690048862C /* User.swift in Sources */,
+				04451C11245B6D9A0048862C /* SceneDelegate.swift in Sources */,
+				04451C48245B734A0048862C /* LoginService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C20245B6D9C0048862C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04451C29245B6D9C0048862C /* Relax_masterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04451C2B245B6D9C0048862C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04451C34245B6D9C0048862C /* Relax_masterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04451C26245B6D9C0048862C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04451C0A245B6D9A0048862C /* Relax-master */;
+			targetProxy = 04451C25245B6D9C0048862C /* PBXContainerItemProxy */;
+		};
+		04451C31245B6D9C0048862C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04451C0A245B6D9A0048862C /* Relax-master */;
+			targetProxy = 04451C30245B6D9C0048862C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04451C14245B6D9A0048862C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04451C15245B6D9A0048862C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04451C1C245B6D9C0048862C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04451C1D245B6D9C0048862C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04451C36245B6D9C0048862C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04451C37245B6D9C0048862C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04451C39245B6D9C0048862C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7356A4070E5F33D9CA4C0363 /* Pods-Relax-master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04451C3A245B6D9C0048862C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FA144ADC47FEF80241977A /* Pods-Relax-master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04451C3C245B6D9C0048862C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-masterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relax-master.app/Relax-master";
+			};
+			name = Debug;
+		};
+		04451C3D245B6D9C0048862C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-masterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relax-master.app/Relax-master";
+			};
+			name = Release;
+		};
+		04451C3F245B6D9C0048862C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Relax-master";
+			};
+			name = Debug;
+		};
+		04451C40245B6D9C0048862C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Relax-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Relax-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Relax-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04451C06245B6D9A0048862C /* Build configuration list for PBXProject "Relax-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04451C36245B6D9C0048862C /* Debug */,
+				04451C37245B6D9C0048862C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04451C38245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04451C39245B6D9C0048862C /* Debug */,
+				04451C3A245B6D9C0048862C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04451C3B245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04451C3C245B6D9C0048862C /* Debug */,
+				04451C3D245B6D9C0048862C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04451C3E245B6D9C0048862C /* Build configuration list for PBXNativeTarget "Relax-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04451C3F245B6D9C0048862C /* Debug */,
+				04451C40245B6D9C0048862C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04451C17245B6D9A0048862C /* Relax_master.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04451C18245B6D9A0048862C /* Relax_master.xcdatamodel */,
+			);
+			currentVersion = 04451C18245B6D9A0048862C /* Relax_master.xcdatamodel */;
+			path = Relax_master.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04451C03245B6D9A0048862C /* Project object */;
+}
